@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:#eaeded;
+}
+
+.navbar{
+    background:#131921;
+    color:white;
+    padding:15px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+}
+
+.navbar input{
+    width:40%;
+    padding:10px;
+}
+
+.navbar button{
+    padding:10px 20px;
+    background:#febd69;
+    border:none;
+    cursor:pointer;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:30px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width:100%;
+}
+
+.card button{
+    margin-top:10px;
+    padding:10px;
+    width:100%;
+    border:none;
+    background:#ffd814;
+    cursor:pointer;
+}
